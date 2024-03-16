@@ -1,40 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-03-16T15:01:41.446925" rpa="false" schemaversion="5">
-<suite id="s1" name="Login" source="c:\Users\hp\Pictures\robot project\OrangeHRM\test\login.robot">
-<test id="s1-t1" name="Validlogin" line="9">
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-03-16T22:33:14.968268" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Users\hp\Pictures\robot project\OrangeHRM\Test">
+<suite id="s1-s1" name="Login" source="C:\Users\hp\Pictures\robot project\OrangeHRM\Test\Login.robot">
+<test id="s1-s1-t1" name="Validlogin" line="9">
 <kw name="login page">
-<msg time="2024-03-16T15:01:41.727720" level="FAIL">No keyword with name 'login page' found. Did you try using keyword 'BuiltIn.Log' and forgot to use enough whitespace between keyword and arguments?</msg>
-<status status="FAIL" start="2024-03-16T15:01:41.726723" elapsed="0.002992">No keyword with name 'login page' found. Did you try using keyword 'BuiltIn.Log' and forgot to use enough whitespace between keyword and arguments?</status>
+<msg time="2024-03-16T22:33:15.266129" level="FAIL">No keyword with name 'login page' found. Did you try using keyword 'BuiltIn.Log' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" start="2024-03-16T22:33:15.265132" elapsed="0.000997">No keyword with name 'login page' found. Did you try using keyword 'BuiltIn.Log' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Enter Valid username and Password">
-<status status="NOT RUN" start="2024-03-16T15:01:41.735699" elapsed="0.000998"/>
+<status status="NOT RUN" start="2024-03-16T22:33:15.268124" elapsed="0.000997"/>
 </kw>
 <kw name="CLick Login button">
-<status status="NOT RUN" start="2024-03-16T15:01:41.743676" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-03-16T22:33:15.270118" elapsed="0.000997"/>
 </kw>
 <kw name="Check the Page title">
-<status status="NOT RUN" start="2024-03-16T15:01:41.747666" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-03-16T22:33:15.273110" elapsed="0.000000"/>
 </kw>
 <kw name="Close the Browser">
-<status status="NOT RUN" start="2024-03-16T15:01:41.751655" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-03-16T22:33:15.274107" elapsed="0.000000"/>
 </kw>
-<status status="FAIL" start="2024-03-16T15:01:41.723730" elapsed="0.028924">No keyword with name 'login page' found. Did you try using keyword 'BuiltIn.Log' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-03-16T22:33:15.263553" elapsed="0.011552">No keyword with name 'login page' found. Did you try using keyword 'BuiltIn.Log' and forgot to use enough whitespace between keyword and arguments?</status>
 </test>
-<status status="FAIL" start="2024-03-16T15:01:41.454136" elapsed="0.303506"/>
+<test id="s1-s1-t2" name="Invalid Login" line="17">
+<kw name="login page">
+<msg time="2024-03-16T22:33:15.283086" level="FAIL">No keyword with name 'login page' found. Did you try using keyword 'BuiltIn.Log' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" start="2024-03-16T22:33:15.283086" elapsed="0.000000">No keyword with name 'login page' found. Did you try using keyword 'BuiltIn.Log' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<kw name="Enter Invalid username and Password">
+<status status="NOT RUN" start="2024-03-16T22:33:15.286417" elapsed="0.000000"/>
+</kw>
+<kw name="CLick Login button">
+<status status="NOT RUN" start="2024-03-16T22:33:15.290369" elapsed="0.000000"/>
+</kw>
+<kw name="Check the Invaled Error message">
+<status status="NOT RUN" start="2024-03-16T22:33:15.292363" elapsed="0.000000"/>
+</kw>
+<kw name="Close the Browser">
+<status status="NOT RUN" start="2024-03-16T22:33:15.294357" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-03-16T22:33:15.278102" elapsed="0.017252">No keyword with name 'login page' found. Did you try using keyword 'BuiltIn.Log' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<status status="FAIL" start="2024-03-16T22:33:15.056003" elapsed="0.242342"/>
+</suite>
+<suite id="s1-s2" name="OrangeTask" source="C:\Users\hp\Pictures\robot project\OrangeHRM\Test\OrangeTask.robot">
+<test id="s1-s2-t1" name="OrangeHRM task" line="8">
+<kw name="login page">
+<msg time="2024-03-16T22:33:15.314303" level="FAIL">No keyword with name 'login page' found. Did you try using keyword 'BuiltIn.Log' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" start="2024-03-16T22:33:15.314303" elapsed="0.000000">No keyword with name 'login page' found. Did you try using keyword 'BuiltIn.Log' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<kw name="Enter Valid username and Password">
+<status status="NOT RUN" start="2024-03-16T22:33:15.321286" elapsed="0.000997"/>
+</kw>
+<kw name="CLick Login button">
+<status status="NOT RUN" start="2024-03-16T22:33:15.324277" elapsed="0.000997"/>
+</kw>
+<kw name="Check the Page title">
+<status status="NOT RUN" start="2024-03-16T22:33:15.327270" elapsed="0.000000"/>
+</kw>
+<kw name="Click on Leave">
+<status status="NOT RUN" start="2024-03-16T22:33:15.330266" elapsed="0.000000"/>
+</kw>
+<kw name="Check the Leave Page Header">
+<status status="NOT RUN" start="2024-03-16T22:33:15.333252" elapsed="0.000000"/>
+</kw>
+<kw name="Click on Apply Button">
+<status status="NOT RUN" start="2024-03-16T22:33:15.335246" elapsed="0.000000"/>
+</kw>
+<kw name="Check the Apply page">
+<status status="NOT RUN" start="2024-03-16T22:33:15.336244" elapsed="0.000997"/>
+</kw>
+<kw name="Click on Profile Button">
+<status status="NOT RUN" start="2024-03-16T22:33:15.340233" elapsed="0.000000"/>
+</kw>
+<kw name="CLick on Logout Button">
+<status status="NOT RUN" start="2024-03-16T22:33:15.343226" elapsed="0.000000"/>
+</kw>
+<kw name="Check that user is logged out">
+<status status="NOT RUN" start="2024-03-16T22:33:15.346219" elapsed="0.000000"/>
+</kw>
+<kw name="Close the Browser">
+<status status="NOT RUN" start="2024-03-16T22:33:15.348215" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-03-16T22:33:15.312308" elapsed="0.036901">No keyword with name 'login page' found. Did you try using keyword 'BuiltIn.Log' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<status status="FAIL" start="2024-03-16T22:33:15.302335" elapsed="0.049867"/>
+</suite>
+<status status="FAIL" start="2024-03-16T22:33:15.037053" elapsed="0.325124"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="1" skip="0" id="s1" name="Login">Login</stat>
+<stat pass="0" fail="3" skip="0" id="s1" name="Test">Test</stat>
+<stat pass="0" fail="2" skip="0" id="s1-s1" name="Login">Test.Login</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s2" name="OrangeTask">Test.OrangeTask</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2024-03-16T15:01:41.712614" level="ERROR">Error in file 'c:\Users\hp\Pictures\robot project\OrangeHRM\test\login.robot' on line 3: Resource file 'C:UsershpPicturesobot projectOrangeHRMResourcesKeywordsLoginPage.robot' does not exist.</msg>
-<msg time="2024-03-16T15:01:41.716750" level="ERROR">Error in file 'c:\Users\hp\Pictures\robot project\OrangeHRM\test\login.robot' on line 4: Resource file 'C:UsershpPicturesobot projectOrangeHRMResourcesKeywordsDashboard.robot' does not exist.</msg>
-<msg time="2024-03-16T15:01:41.719741" level="ERROR">Error in file 'c:\Users\hp\Pictures\robot project\OrangeHRM\test\login.robot' on line 5: Resource file 'c:UsershpPicturesobot projectOrangeHRMResourcesKeywordsLeavePage.robot' does not exist.</msg>
+<msg time="2024-03-16T22:33:15.258814" level="ERROR">Error in file 'C:\Users\hp\Pictures\robot project\OrangeHRM\Test\Login.robot' on line 3: Resource file 'C:UsershpPicturesobot projectOrangeHRMResourcesKeywordsLoginPage.robot' does not exist.</msg>
+<msg time="2024-03-16T22:33:15.259890" level="ERROR">Error in file 'C:\Users\hp\Pictures\robot project\OrangeHRM\Test\Login.robot' on line 4: Resource file 'C:UsershpPicturesobot projectOrangeHRMResourcesKeywordsDashboard.robot' does not exist.</msg>
+<msg time="2024-03-16T22:33:15.261476" level="ERROR">Error in file 'C:\Users\hp\Pictures\robot project\OrangeHRM\Test\Login.robot' on line 5: Resource file 'c:UsershpPicturesobot projectOrangeHRMResourcesKeywordsLeavePage.robot' does not exist.</msg>
+<msg time="2024-03-16T22:33:15.307322" level="ERROR">Error in file 'C:\Users\hp\Pictures\robot project\OrangeHRM\Test\OrangeTask.robot' on line 3: Resource file 'C:UsershpPicturesobot projectOrangeHRMResourcesKeywordsLoginPage.robot' does not exist.</msg>
+<msg time="2024-03-16T22:33:15.309317" level="ERROR">Error in file 'C:\Users\hp\Pictures\robot project\OrangeHRM\Test\OrangeTask.robot' on line 4: Resource file 'C:UsershpPicturesobot projectOrangeHRMResourcesKeywordsDashboard.robot' does not exist.</msg>
+<msg time="2024-03-16T22:33:15.311311" level="ERROR">Error in file 'C:\Users\hp\Pictures\robot project\OrangeHRM\Test\OrangeTask.robot' on line 5: Resource file 'C:UsershpPicturesobot projectOrangeHRMResourcesKeywordsLeavePage.robot' does not exist.</msg>
 </errors>
 </robot>
